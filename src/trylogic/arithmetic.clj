@@ -1,4 +1,4 @@
-(ns trylogic.arithmetic
+(ns logic-examples.arithmetic
   (:refer-clojure :exclude [inc reify ==])
   (:use [clojure.core.logic minikanren prelude nonrel match disequality]))
 
