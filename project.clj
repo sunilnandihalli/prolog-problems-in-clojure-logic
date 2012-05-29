@@ -4,4 +4,5 @@
   :repositories {"sonatype-oss-public"
                  "https://oss.sonatype.org/content/groups/public/"}
   :dependencies [[org.clojure/clojure "1.3.0"]
-                 [org.clojure/core.logic "0.6.4"]])
+        	[org.clojure/algo.monads "0.1.3-SNAPSHOT"]         
+	[org.clojure/core.logic "0.6.4"]])

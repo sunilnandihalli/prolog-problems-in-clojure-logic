@@ -1,4 +1,4 @@
-(ns logic-examples.arithmetic
+ (ns trylogic.arithmetic
   (:refer-clojure :exclude [inc reify ==])
   (:use [clojure.core.logic minikanren prelude nonrel match disequality]))
 
@@ -7,6 +7,7 @@
    (zero? n) ()
    (and (even? n) (not (zero? n)))  (cons 0 (build-num (/ n 2)))
    (odd? n) (cons 1 (build-num (/ (dec n) 2)))))
+
 
 (defn remove* [pred & colls]
   (remove pred (apply map list colls)))
